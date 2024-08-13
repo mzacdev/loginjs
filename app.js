@@ -10,6 +10,7 @@ const PASSWORD = 'password123';
 const register = new promClient.Registry();
 
 // Add a default label which is added to all metrics
+// Add something
 register.setDefaultLabels({
   app: 'nodejs-login-app'
 });
